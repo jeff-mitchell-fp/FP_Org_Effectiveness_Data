@@ -49,7 +49,7 @@ The following should be completed prior to running the script:
 	- FTE and Labour Cost files into the Source folder
 - At the command line, navigate to the folder where the app file is located
 - Enter `jupyter lab`
-- Run the Generate_Org_Effeftiveness_Data Jupyter Notebook
+- Run the Generate_Org_Effectiveness_Data Jupyter Notebook
 - Update the month_year variable with the latest actual month reported (e.g. 'October_2025')
 - Restart the Kernal and Run All Cells
 - Check for any entries that are not mapped to a Workday Business Unit
