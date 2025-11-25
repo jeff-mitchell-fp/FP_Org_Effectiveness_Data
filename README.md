@@ -13,7 +13,7 @@ The app outputs an XLSX file with the data for the Organisational Effectiveness 
 ## Version
 
 Version Number 0.00.1\
-App last updated 14 November 2025
+App last updated 26 November 2025
 
 ## Compatability
 - python 3.8, 3.11
@@ -57,6 +57,8 @@ The following should be completed prior to running the script:
 	- A file will be saved to the Troubleshooting folder with the JDE Business Unit Codes that are not mapped.
 - Update the Cost Center Mapping file and repeat until all Labour Cost entries are accounted for (assigned to a Workday Business Unit)
 - Review the output of the script
+- Add an entry to the output file for z_Staff Bonus for each month between 202601 and 202612
+	- The data will be empty for each entry. This is to account for the Labour Cost Budget entries (Staff Bonus) held in the Org Effectiveness Dashboard
 - Add the new data to the Organisational Effectiveness Dashboard, overwriting previous data where necessary
 - Hide the data sheet, refresh the data, save the file and upload to SharePoint (overwriting the existing file).
 
@@ -130,5 +132,7 @@ The file needs the top rows removed so that the first row is the column headers.
 ### Development
 
 - Move to a script
+- Add Metric column to output
+- Handle z_Staff Bonus entries once start appearing in actuals
 - Add Headcount and Number of Leaders to the data
 - Add processing of Revenue and EBIT data (if can receive from Finance in a better format).
